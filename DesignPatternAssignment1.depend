@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1643193283 source:/home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/main.cpp
+	<bits/stdc++.h>
+	"header.h"
+
+1643189287 source:/home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/PrintMode.cpp
+	"PrintMode.h"
+
+1643196515 /home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/PrintMode.h
+	<bits/stdc++.h>
+
+1643193275 /home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/header.h
+	"PrintMode.h"
+
