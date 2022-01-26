@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-	TonerSaveMode x;
-	x.setCostPerPage(2.1);
-	cout << x.getCostPerPage();
+	PrintRequest x;
+	//x.setCostPerPage(2.1);
+	//cout << x.getCostPerPage();
 }

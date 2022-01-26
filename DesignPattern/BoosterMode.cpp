@@ -8,11 +8,12 @@ BoosterMode::BoosterMode()
 Document BoosterMode::increaseColorIntensity(Document recievedDocument)
 {
 	recievedDocument.setColorIntensity(intensityThreshold);
+	return recievedDocument;
 }
 
 Document BoosterMode::Boost(Document recievedDocument)
 {
-	increaseColorIntensity(recievedDocument);
+	return increaseColorIntensity(recievedDocument);
 }
 
 void BoosterMode::setIntensityThreshold(double recievedIntensityThreshold)

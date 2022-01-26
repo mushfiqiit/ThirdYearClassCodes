@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1643208283 source:/home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/main.cpp
+1643221120 source:/home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/main.cpp
 	<bits/stdc++.h>
 	"header.h"
 
@@ -9,32 +9,35 @@
 1643218894 /home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/PrintMode.h
 	<bits/stdc++.h>
 
-1643217116 /home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/header.h
+1643225107 /home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/header.h
 	"PrintMode.h"
 	"TonerSaveMode.h"
 	"PageSaveMode.h"
 	"BoosterMode.h"
 	"Document.h"
+	"PrintRequest.h"
+	"PrintJob.h"
+	"PrioritySetting.h"
 
-1643207775 source:/home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/TonerSaveMode.cpp
+1643218906 source:/home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/TonerSaveMode.cpp
 	"TonerSaveMode.h"
 
 1643218567 /home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/TonerSaveMode.h
 	"PrintMode.h"
 	<bits/stdc++.h>
 
-1643215504 /home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/PageSaveMode.h
-	"PrintMode.h"
+1643225632 /home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/PageSaveMode.h
+	"header.h"
 	<bits/stdc++.h>
 
-1643218162 /home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/BoosterMode.h
+1643225592 /home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/BoosterMode.h
 	"header.h"
 	<bits/stdc++.h>
 
 1643217224 /home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/Document.h
 	<bits/stdc++.h>
 
-1643215571 source:/home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/PageSaveMode.cpp
+1643220994 source:/home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/PageSaveMode.cpp
 	"PageSaveMode.h"
 
 1643218267 source:/home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/BoosterMode.cpp
@@ -42,4 +45,26 @@
 
 1643216910 source:/home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/Document.cpp
 	"Document.h"
+
+1643221189 source:/home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/PrintJob.cpp
+	"PrintJob.h"
+
+1643226270 /home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/PrintJob.h
+	<bits/stdc++.h>
+	"header.h"
+	"PrintRequest.h"
+
+1643222427 source:/home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/PrintRequest.cpp
+	"PrintRequest.h"
+
+1643225845 /home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/PrintRequest.h
+	"header.h"
+	<bits/stdc++.h>
+
+1643223643 source:/home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/PrioritySetting.cpp
+	"PrioritySetting.h"
+
+1643224355 /home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/PrioritySetting.h
+	"header.h"
+	<bits/stdc++.h>
 

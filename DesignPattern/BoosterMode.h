@@ -4,7 +4,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-class BoosterMode
+class BoosterMode :public PrintMode
 {
 	private:
 	double intensityThreshold;

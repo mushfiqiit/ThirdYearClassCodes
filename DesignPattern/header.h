@@ -3,3 +3,6 @@
 #include "PageSaveMode.h"
 #include "BoosterMode.h"
 #include "Document.h"
+#include "PrintRequest.h"
+#include "PrintJob.h"
+#include "PrioritySetting.h"

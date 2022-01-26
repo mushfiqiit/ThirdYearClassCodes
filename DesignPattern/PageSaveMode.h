@@ -1,17 +1,18 @@
 #ifndef PAGESAVEMODE_H
 #define PAGESAVEMODE_H
-#include "PrintMode.h"
+#include "header.h"
 #include <bits/stdc++.h>
 using namespace std;
 
-class PageSaveMode
+class PageSaveMode : public PrintMode
 {
 	private:
 		void adjustPageSizeAndOrientation();
+		void displayPreview(Document);
 	public:
 		PageSaveMode();
-		void savePage();
-		void renderPreview();
+		void savePage(Document);
+		void renderPreview(Document);
 };
 
 #endif // PAGESAVEMODE_H

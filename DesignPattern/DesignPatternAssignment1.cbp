@@ -38,8 +38,14 @@
 		<Unit filename="Document.h" />
 		<Unit filename="PageSaveMode.cpp" />
 		<Unit filename="PageSaveMode.h" />
+		<Unit filename="PrintJob.cpp" />
+		<Unit filename="PrintJob.h" />
 		<Unit filename="PrintMode.cpp" />
 		<Unit filename="PrintMode.h" />
+		<Unit filename="PrintRequest.cpp" />
+		<Unit filename="PrintRequest.h" />
+		<Unit filename="PrioritySetting.cpp" />
+		<Unit filename="PrioritySetting.h" />
 		<Unit filename="TonerSaveMode.cpp" />
 		<Unit filename="TonerSaveMode.h" />
 		<Unit filename="header.h" />
