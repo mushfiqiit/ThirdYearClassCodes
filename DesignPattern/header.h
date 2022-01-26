@@ -1,0 +1,5 @@
+#include "PrintMode.h"
+#include "TonerSaveMode.h"
+#include "PageSaveMode.h"
+#include "BoosterMode.h"
+#include "Document.h"

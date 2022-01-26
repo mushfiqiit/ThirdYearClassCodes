@@ -1,0 +1,45 @@
+# depslib dependency file v1.0
+1643208283 source:/home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/main.cpp
+	<bits/stdc++.h>
+	"header.h"
+
+1643207678 source:/home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/PrintMode.cpp
+	"PrintMode.h"
+
+1643218894 /home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/PrintMode.h
+	<bits/stdc++.h>
+
+1643217116 /home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/header.h
+	"PrintMode.h"
+	"TonerSaveMode.h"
+	"PageSaveMode.h"
+	"BoosterMode.h"
+	"Document.h"
+
+1643207775 source:/home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/TonerSaveMode.cpp
+	"TonerSaveMode.h"
+
+1643218567 /home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/TonerSaveMode.h
+	"PrintMode.h"
+	<bits/stdc++.h>
+
+1643215504 /home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/PageSaveMode.h
+	"PrintMode.h"
+	<bits/stdc++.h>
+
+1643218162 /home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/BoosterMode.h
+	"header.h"
+	<bits/stdc++.h>
+
+1643217224 /home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/Document.h
+	<bits/stdc++.h>
+
+1643215571 source:/home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/PageSaveMode.cpp
+	"PageSaveMode.h"
+
+1643218267 source:/home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/BoosterMode.cpp
+	"BoosterMode.h"
+
+1643216910 source:/home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/Document.cpp
+	"Document.h"
+
