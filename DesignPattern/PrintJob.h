@@ -9,7 +9,7 @@ using namespace std;
 class PrintJob
 {
 	private:
-	queue<PrintRequest> PrintRequests;
+	vector<PrintRequest> PrintRequests;
 	/* PrioritySetting class is needed to order the PrintRequest so, the class sent to PrintRequest
 	PrioritySetting PrioritySetter;
 	*/
@@ -18,7 +18,7 @@ class PrintJob
 		PrintJob();
 		void addJob(PrintRequest);
 		void pullJob(PrintRequest);
-		/* Single-Responsibility Principle violated. ChangePriority function passed to PrioritySetting Class 
+		/* Single-Responsibility Principle violated. ChangePriority function passed to PrioritySetting Class
 		void changePriority();
 		*/
 };

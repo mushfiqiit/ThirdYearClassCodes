@@ -9,12 +9,12 @@ using namespace std;
 class PageSaveMode: public PrintMode
 {
 	private:
-		void adjustPageSizeAndOrientation();
 		void displayPreview(Document);
 	public:
 		PageSaveMode();
 		void savePage(Document);
 		void renderPreview(Document);
+		void adjustPageSizeAndOrientation();
 };
 
 #endif // PAGESAVEMODE_H

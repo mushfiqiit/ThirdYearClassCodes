@@ -71,3 +71,72 @@
 1643257825 /home/mushfiqur/Desktop/DesignPattern/DesignPatternAssignment1/PrioritySetting.h
 	<bits/stdc++.h>
 
+1643262789 source:/home/mushfiqur/Downloads/ThirdYearClassCodes-main/DesignPattern/BoosterMode.cpp
+	"BoosterMode.h"
+
+1643262789 /home/mushfiqur/Downloads/ThirdYearClassCodes-main/DesignPattern/BoosterMode.h
+	"PrintMode.h"
+	<bits/stdc++.h>
+	"Document.h"
+
+1643262789 /home/mushfiqur/Downloads/ThirdYearClassCodes-main/DesignPattern/PrintMode.h
+	<bits/stdc++.h>
+
+1643262789 /home/mushfiqur/Downloads/ThirdYearClassCodes-main/DesignPattern/Document.h
+	<bits/stdc++.h>
+
+1643262789 source:/home/mushfiqur/Downloads/ThirdYearClassCodes-main/DesignPattern/Document.cpp
+	"Document.h"
+
+1643262789 source:/home/mushfiqur/Downloads/ThirdYearClassCodes-main/DesignPattern/main.cpp
+	<bits/stdc++.h>
+	"header.h"
+
+1643262789 /home/mushfiqur/Downloads/ThirdYearClassCodes-main/DesignPattern/header.h
+	"PrintMode.h"
+	"TonerSaveMode.h"
+	"PageSaveMode.h"
+	"BoosterMode.h"
+	"Document.h"
+	"PrintRequest.h"
+	"PrintJob.h"
+	"PrioritySetting.h"
+
+1643262789 /home/mushfiqur/Downloads/ThirdYearClassCodes-main/DesignPattern/TonerSaveMode.h
+	<bits/stdc++.h>
+	"PrintMode.h"
+
+1643263651 /home/mushfiqur/Downloads/ThirdYearClassCodes-main/DesignPattern/PageSaveMode.h
+	<bits/stdc++.h>
+	"Document.h"
+	"PrintMode.h"
+
+1643262789 /home/mushfiqur/Downloads/ThirdYearClassCodes-main/DesignPattern/PrintRequest.h
+	<bits/stdc++.h>
+	"PrioritySetting.h"
+	"Document.h"
+	"PrintMode.h"
+
+1643262789 /home/mushfiqur/Downloads/ThirdYearClassCodes-main/DesignPattern/PrioritySetting.h
+	<bits/stdc++.h>
+
+1643262852 /home/mushfiqur/Downloads/ThirdYearClassCodes-main/DesignPattern/PrintJob.h
+	<bits/stdc++.h>
+	"PrintJob.h"
+	"PrintRequest.h"
+
+1643262789 source:/home/mushfiqur/Downloads/ThirdYearClassCodes-main/DesignPattern/PageSaveMode.cpp
+	"PageSaveMode.h"
+
+1643262789 source:/home/mushfiqur/Downloads/ThirdYearClassCodes-main/DesignPattern/PrintMode.cpp
+	"PrintMode.h"
+
+1643262789 source:/home/mushfiqur/Downloads/ThirdYearClassCodes-main/DesignPattern/PrintRequest.cpp
+	"PrintRequest.h"
+
+1643262789 source:/home/mushfiqur/Downloads/ThirdYearClassCodes-main/DesignPattern/PrioritySetting.cpp
+	"PrioritySetting.h"
+
+1643262789 source:/home/mushfiqur/Downloads/ThirdYearClassCodes-main/DesignPattern/TonerSaveMode.cpp
+	"TonerSaveMode.h"
+

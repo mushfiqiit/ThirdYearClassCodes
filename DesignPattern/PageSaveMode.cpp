@@ -5,11 +5,6 @@ PageSaveMode::PageSaveMode()
 	//ctor
 }
 
-void PageSaveMode::adjustPageSizeAndOrientation()
-{
-
-}
-
 void PageSaveMode::displayPreview(Document recievedDocument)
 {
 	cout << "Title : ";
@@ -19,10 +14,17 @@ void PageSaveMode::displayPreview(Document recievedDocument)
 
 void PageSaveMode::savePage(Document recievedDocument)
 {
-
+	cout << "Page saved.\n";
 }
 
 void PageSaveMode::renderPreview(Document recievedDocument)
 {
 	displayPreview(recievedDocument);
 }
+
+
+void PageSaveMode::adjustPageSizeAndOrientation()
+{
+	cout << "Page size and orientation adjusted. Cost minimized.\n";
+}
+
