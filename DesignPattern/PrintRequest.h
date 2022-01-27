@@ -1,7 +1,10 @@
 #ifndef PRINTREQUEST_H
 #define PRINTREQUEST_H
-#include "header.h"
 #include <bits/stdc++.h>
+#include "PrioritySetting.h"
+#include "Document.h"
+#include "PrintMode.h"
+//#include "header.h"
 using namespace std;
 
 class PrintRequest
@@ -16,7 +19,7 @@ class PrintRequest
 		Document getDocument();
 		void setPrintMode(PrintMode);
 		PrintMode getPrintMode();
-		void setPriority();
+		void setPriority(int);
 		int getPriority();
 };
 

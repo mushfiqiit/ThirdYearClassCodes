@@ -1,5 +1,6 @@
 #ifndef PRINTMODE_H
 #define PRINTMODE_H
+//#include "header.h"
 #include <bits/stdc++.h>
 using namespace std;
 

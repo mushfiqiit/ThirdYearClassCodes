@@ -2,7 +2,7 @@
 
 PrintJob::PrintJob()
 {
-	PrintRequests=new priority_queue;
+	//PrintRequest=new queue();
 }
 
 void PrintJob::sendToProduction(PrintRequest recievedPrintRequest)
@@ -12,12 +12,12 @@ void PrintJob::sendToProduction(PrintRequest recievedPrintRequest)
 
 void PrintJob::addJob(PrintRequest recievedPrintRequest)
 {
-	PrintRequests.push(make_pair(recievedPrintRequest.getPriority(),  recievedPrintRequest));
+	//PrintRequests.push(make_pair(recievedPrintRequest.getPriority(),  recievedPrintRequest));
 }
 
 void PrintJob::pullJob(PrintRequest recievedPrintRequest)
 {
-	PrintRequest PulledPrintRequest=PrintRequests.top();
+	PrintRequest PulledPrintRequest=PrintRequests.front();
 	PrintRequests.pop();
 	sendToProduction(PulledPrintRequest);
 }

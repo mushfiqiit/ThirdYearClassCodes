@@ -1,7 +1,8 @@
 #ifndef TONERSAVEMODE_H
 #define TONERSAVEMODE_H
-#include "PrintMode.h"
+//#include "header.h"
 #include <bits/stdc++.h>
+#include "PrintMode.h"
 using namespace std;
 
 class TonerSaveMode: public PrintMode
