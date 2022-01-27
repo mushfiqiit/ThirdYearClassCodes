@@ -12,6 +12,9 @@ class PrintRequest
 	private:
 	Document referenceDocument;
 	PrintMode referencePrintMode;
+	/*
+	Liskov Substitution Principle followed. PrintMode is substitutable by it's extended classes.
+	*/
 	PrioritySetting PrioritySettingForRequest;
 	public:
 		PrintRequest();
